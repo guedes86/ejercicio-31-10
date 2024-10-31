@@ -1,0 +1,99 @@
+:root {
+    --color1: #A6A085;
+    --color2: #403333;
+    --color3: #736565;
+    --color4: #F2F2F2;
+    --color5: #0D0D0D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color4);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A6A085;
+    color: #0D0D0D;
+    width: 100vw;
+    height: 50px;
+    text-shadow: 2px 2px 5px #0d0d0da9;
+    border: #0d0d0dbd solid 1px;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 20px;
+}
+
+div#superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 10px;
+}
+
+div#superior div{
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    border: var(--color2) solid 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    text-shadow: 2px 2px 5px #0d0d0da9;
+}
+
+div#superior div:hover{
+    background-color: var(--color2);
+    border: var(--color4) solid 2px;
+    color: var(--color4);
+}
+
+div#inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 10px;
+    
+}
+
+div#inferior div{
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 120px;
+    padding: 20px;
+    text-align: center;
+    border: var(--color2) solid 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    text-shadow: 2px 2px 5px #0d0d0da9;
+}
+
+div#inferior div:hover{
+    background-color: var(--color2);
+    border: var(--color4) solid 2px;
+    color: var(--color4);
+}
+
